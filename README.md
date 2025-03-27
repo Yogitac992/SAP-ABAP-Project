@@ -1,19 +1,20 @@
-# SAP-ABAP-Project
-z_material-report
-
-# Z_MATERIAL_REPORT 🚀
+# 🚀 SAP ABAP Project - Z_MATERIAL_REPORT
 
 ## 📌 Project Overview  
-This is a **Basic ABAP Report** that fetches **Material Master Data** from the MARA table.  
-The report retrieves the **first 10 materials** and displays their **Material Number, Type, and Industry Sector**.
+This is a basic ABAP report that retrieves Material Master Data from the MARA table.  
+It fetches the first 10 materials and displays their Material Number (MATNR), Material Type (MTART), and Industry Sector (MBRSH)**.
+
+---
 
 ## ⚡ Features  
-✔️ Fetches Material Data from MARA table  
-✔️ **SELECT Query** with performance optimization (`UP TO 10 ROWS`)  
-✔️ **Simple LOOP & WRITE statements** for output  
+✔️ Fetches Material Data from SAP MARA Table  
+✔️ Uses SELECT Query with `UP TO 10 ROWS` for performance optimization  
+✔️ Simple LOOP & WRITE statements for structured output  
 
-## 📜 ABAP Code 
+---
 
+## 📜 ABAP Code  
+```abap
 REPORT ZMATERIAL_REPORT.
 
 TABLES: MARA.
